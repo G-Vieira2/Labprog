@@ -1,0 +1,11 @@
+from flask import Blueprint, render_template
+
+logincont = Flask(__name__)
+
+@logincont.route("/" methods = )
+def login():
+    if request.methods == "POST":
+        user = request.form("user")
+        senha = request.form("senha")
+        return render_template("index.html")
+        for u in listaUsers
